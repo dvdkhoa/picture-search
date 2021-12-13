@@ -1,10 +1,9 @@
-import React from 'react';
+import {Component} from 'react';
 
-class FormSearch extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
+class FormSearch extends Component {
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     const search = document.getElementById('search-txt')
